@@ -27,7 +27,6 @@ def detail_url(recipe_id):
     return reverse('recipe:recipe-detail', args=[recipe_id])
 
 
-# Create your tests here.
 class ModelTests(TestCase):
     """Test models."""
 
